@@ -1,0 +1,6 @@
+@mixin backgroundM($height, $bkgrep, $bkgsz, $textal) {
+  height: $height;
+  background-repeat: $bkgrep;
+  background-size: $bkgsz;
+  text-align: $textal;
+}

@@ -14,48 +14,33 @@
 }
 
 .section-hombre-culotes {
-  background-image: url(../MEDIA/imagenes/culotes-ciclismo-hombre-verano.jpeg);
-  height: 30vh;
-  background-repeat: no-repeat;
-  background-size: cover;
+  @include backgroundM(30vh, no-repeat, cover, center);
   background-position: center;
-  text-align: center;
+  background-image: url(../MEDIA/imagenes/culotes-ciclismo-hombre-verano.jpeg);
 }
 
 .section-hombre-maillots {
+  @include backgroundM(30vh, no-repeat, cover, center);
   background-image: url(../MEDIA/imagenes/maillots-ciclismo-hombre.jpeg);
-  height: 30vh;
-  background-repeat: no-repeat;
-  background-size: cover;
   background-position: right;
-  text-align: center;
 }
 
 .section-mujer-culotes {
+  @include backgroundM(30vh, no-repeat, cover, center);
   background-image: url(../MEDIA/imagenes/culotes-otono-invierno-mujer.jpeg);
-  height: 30vh;
-  background-repeat: no-repeat;
-  background-size: cover;
   background-position: center;
-  text-align: center;
 }
 
 .section-mujer-maillots {
+  @include backgroundM(30vh, no-repeat, cover, center);
   background-image: url(../MEDIA/imagenes/maillots-ciclismo-mujer.jpeg);
-  height: 30vh;
-  background-repeat: no-repeat;
-  background-size: cover;
   background-position: center;
-  text-align: center;
 }
 
 .section-accesorios {
+  @include backgroundM(30vh, no-repeat, cover, center);
   background-image: url(../MEDIA/imagenes/accesorios-ciclismo.jpeg);
-  height: 30vh;
-  background-repeat: no-repeat;
-  background-size: cover;
   background-position: center;
-  text-align: center;
 }
 
 .section-contacto {

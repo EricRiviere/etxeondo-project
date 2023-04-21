@@ -47,48 +47,48 @@ header .container {
 }
 
 .section-hombre-culotes {
-  background-image: url(../MEDIA/imagenes/culotes-ciclismo-hombre-verano.jpeg);
   height: 30vh;
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
   text-align: center;
+  background-position: center;
+  background-image: url(../MEDIA/imagenes/culotes-ciclismo-hombre-verano.jpeg);
 }
 
 .section-hombre-maillots {
-  background-image: url(../MEDIA/imagenes/maillots-ciclismo-hombre.jpeg);
   height: 30vh;
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: right;
   text-align: center;
+  background-image: url(../MEDIA/imagenes/maillots-ciclismo-hombre.jpeg);
+  background-position: right;
 }
 
 .section-mujer-culotes {
-  background-image: url(../MEDIA/imagenes/culotes-otono-invierno-mujer.jpeg);
   height: 30vh;
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
   text-align: center;
+  background-image: url(../MEDIA/imagenes/culotes-otono-invierno-mujer.jpeg);
+  background-position: center;
 }
 
 .section-mujer-maillots {
-  background-image: url(../MEDIA/imagenes/maillots-ciclismo-mujer.jpeg);
   height: 30vh;
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
   text-align: center;
+  background-image: url(../MEDIA/imagenes/maillots-ciclismo-mujer.jpeg);
+  background-position: center;
 }
 
 .section-accesorios {
-  background-image: url(../MEDIA/imagenes/accesorios-ciclismo.jpeg);
   height: 30vh;
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
   text-align: center;
+  background-image: url(../MEDIA/imagenes/accesorios-ciclismo.jpeg);
+  background-position: center;
 }
 
 .section-contacto {
@@ -184,18 +184,10 @@ video {
   .section h2 {
     margin-top: 5vh;
   }
-  .section-hombre-culotes {
-    height: 30vh;
-  }
-  .section-hombre-maillots {
-    height: 30vh;
-  }
-  .section-mujer-culotes {
-    height: 30vh;
-  }
-  .section-mujer-maillots {
-    height: 30vh;
-  }
+  .section-hombre-culotes,
+  .section-hombre-maillots,
+  .section-mujer-culotes,
+  .section-mujer-maillots,
   .section-accesorios {
     height: 30vh;
   }
