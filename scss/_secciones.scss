@@ -1,18 +1,16 @@
 /*SECTIONS*/
 .section {
   padding-top: 8vh;
-}
-
-.section h2 {
-  color: white;
-  font-size: 10vw;
-  opacity: 0.5;
-  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-  margin-top: 10vh;
-}
-
-.section a {
-  text-decoration: none;
+  h2 {
+    color: white;
+    font-size: 10vw;
+    opacity: 0.5;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    margin-top: 10vh;
+  }
+  a {
+    text-decoration: none;
+  }
 }
 
 .section-hombre-culotes {
@@ -63,18 +61,16 @@
 .section-contacto {
   height: 25vh;
   text-align: center;
-}
-
-.section-contacto h2 {
-  color: white;
-  font-size: 10vw;
-  opacity: 0.5;
-  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-  margin-top: 10vh;
-}
-
-.section-contacto a {
-  text-decoration: none;
+  h2 {
+    color: white;
+    font-size: 10vw;
+    opacity: 0.5;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    margin-top: 10vh;
+  }
+  a {
+    text-decoration: none;
+  }
 }
 
 /*DESTACADOS*/
@@ -140,12 +136,14 @@ video {
 .footer-top {
   height: 100px;
   line-height: 10vh;
-}
-
-.footer-top a,
-a:visited {
-  text-decoration: none;
-  color: black;
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  & a:visited {
+    text-decoration: none;
+    color: black;
+  }
 }
 
 .footer-bottom {
