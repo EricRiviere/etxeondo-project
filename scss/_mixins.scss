@@ -4,3 +4,10 @@
   background-size: $bkgsz;
   text-align: $textal;
 }
+
+@mixin transparentTitle($color, $fontSize, $opacity, $textShadow) {
+  color: $color;
+  font-size: $fontSize;
+  opacity: $opacity;
+  text-shadow: $textShadow;
+}

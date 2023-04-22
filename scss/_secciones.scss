@@ -2,10 +2,12 @@
 .section {
   padding-top: 8vh;
   h2 {
-    color: white;
-    font-size: 10vw;
-    opacity: 0.5;
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    @include transparentTitle(
+      white,
+      10vw,
+      0.5,
+      (-1px 0 black, 0 1px black, 1px 0 black, 0 -1px black)
+    );
     margin-top: 10vh;
   }
   a {
@@ -15,42 +17,44 @@
 
 .section-hombre-culotes {
   @include backgroundM(30vh, no-repeat, cover, center);
-  background-position: center;
+  background-position: $defaultBkd;
   background-image: url(../MEDIA/imagenes/culotes-ciclismo-hombre-verano.jpeg);
 }
 
 .section-hombre-maillots {
   @include backgroundM(30vh, no-repeat, cover, center);
   background-image: url(../MEDIA/imagenes/maillots-ciclismo-hombre.jpeg);
-  background-position: right;
+  background-position: $variantBkd;
 }
 
 .section-mujer-culotes {
   @include backgroundM(30vh, no-repeat, cover, center);
   background-image: url(../MEDIA/imagenes/culotes-otono-invierno-mujer.jpeg);
-  background-position: center;
+  background-position: $defaultBkd;
 }
 
 .section-mujer-maillots {
   @include backgroundM(30vh, no-repeat, cover, center);
   background-image: url(../MEDIA/imagenes/maillots-ciclismo-mujer.jpeg);
-  background-position: center;
+  background-position: $defaultBkd;
 }
 
 .section-accesorios {
   @include backgroundM(30vh, no-repeat, cover, center);
   background-image: url(../MEDIA/imagenes/accesorios-ciclismo.jpeg);
-  background-position: center;
+  background-position: $defaultBkd;
 }
 
 .section-contacto {
   height: 25vh;
   text-align: center;
   h2 {
-    color: white;
-    font-size: 10vw;
-    opacity: 0.5;
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    @include transparentTitle(
+      white,
+      10vw,
+      0.5,
+      (-1px 0 black, 0 1px black, 1px 0 black, 0 -1px black)
+    );
     margin-top: 10vh;
   }
   a {
